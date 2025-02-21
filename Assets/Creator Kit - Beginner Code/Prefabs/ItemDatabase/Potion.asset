@@ -19,6 +19,7 @@ MonoBehaviour:
     type: 3}
   UsageEffects:
   - {fileID: 1107657640091256493}
+  - {fileID: 3226160415769165919}
 --- !u!114 &1107657640091256493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32,4 +33,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Description: Add 20% of health
-  HealthPurcentageAmount: 20
+  HealthPercentageAmount: 20
+--- !u!114 &3226160415769165919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c5ed9237a5bc542a18e2a45105008e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: Gives 10 HP
+  healthVary: 10
