@@ -6,10 +6,10 @@ using Unity.VisualScripting;
 
 public class ItemEffect : UsableItem.UsageEffect
 {
-    Item Item_add;
-    public override bool Use(CharacterData user)
-    {
-        user.Inventory.AddItem(Item_add);
+    public int heatlhRestore = 2;
+    public override bool Use(CharacterData user){
+        if(user==null) return false;
+        user.Stats.ChangeHealth(heatlhRestore);
         return true;
     }
 }
