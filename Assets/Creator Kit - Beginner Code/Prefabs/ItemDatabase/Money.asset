@@ -17,4 +17,19 @@ MonoBehaviour:
   Description: Makes the West go round
   WorldObjectPrefab: {fileID: 5425733448891748066, guid: 78a62d5ec617d564f8925757d757eabe,
     type: 3}
-  UsageEffects: []
+  UsageEffects:
+  - {fileID: 8326248631292755677}
+--- !u!114 &8326248631292755677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24929c2d344ea6408552475ffd9a3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  heatlhRestore: 2
