@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e24929c2d344ea6408552475ffd9a3e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ItemSprite: {instanceID: 0}
+  - WorldObjectPrefab: {fileID: -927199367670048503, guid: 572a037275ae6c040a92f6080e924aeb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
