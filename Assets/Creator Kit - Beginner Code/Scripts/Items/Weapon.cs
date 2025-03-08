@@ -107,6 +107,11 @@ namespace CreatorKitCode
 
                 return totalDamage;
             }
+
+            internal void AddDamage(object fire, int v)
+            {
+                throw new System.NotImplementedException();
+            }
         }
     
         /// <summary>

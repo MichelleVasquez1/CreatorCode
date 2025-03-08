@@ -148,6 +148,8 @@ namespace CreatorKitCode
         public List<BaseElementalEffect> ElementalEffects => m_ElementalEffects;
         public List<TimedStatModifier> TimedModifierStack => m_TimedModifierStack;
 
+        public int Strength { get; internal set; }
+
         CharacterData m_Owner;
     
         List<StatModifier> m_ModifiersStack = new List<StatModifier>();

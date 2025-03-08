@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2838426308710470983
+--- !u!114 &-4499822042336708323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e0f632d012c12d43ab37976f4fc9aa2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4eef92754b748704fa6a69246a6fa7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Description: 
+  Description: Fire
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22,17 +22,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
-  m_Name: EquipmentItem
+  m_Script: {fileID: 11500000, guid: 0a96cf71494313b42b0e2459b8aa90d2, type: 3}
+  m_Name: weapon
   m_EditorClassIdentifier: 
-  ItemName: Equip_Custom
+  ItemName: Weapon_Custom
   ItemSprite: {fileID: 0}
   Description: 
-  WorldObjectPrefab: {fileID: 5898196935238221940, guid: 9be663f1d15d2a74395a9b0ff319d423,
+  WorldObjectPrefab: {fileID: -927199367670048503, guid: 572a037275ae6c040a92f6080e924aeb,
     type: 3}
-  Slot: 0
+  Slot: 666
   MinimumStrength: 0
   MinimumAgility: 0
   MinimumDefense: 0
-  EquippedEffects:
-  - {fileID: -2838426308710470983}
+  EquippedEffects: []
+  HitSounds: []
+  SwingSounds: []
+  Stats:
+    Speed: 1
+    MinimumDamage: 1
+    MaximumDamage: 1
+    MaxRange: 1
+  AttackEffects:
+  - {fileID: -4499822042336708323}
